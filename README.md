@@ -57,10 +57,11 @@ int main()
 #include <stdio.h>
 #include <sys/ipc.h>
 #include <sys/msg.h>
+```
 
 
 reader.c
-
+```
 // structure for message queue
 struct mesg_buffer {
 	long mesg_type;
