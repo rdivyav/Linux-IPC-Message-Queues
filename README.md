@@ -24,7 +24,7 @@ Execute the C Program for the desired output.
 
 
 writer.c
-
+```
 // C Program for Message Queue (Writer Process) 
 #include <stdio.h> 
 #include <sys/ipc.h> 
@@ -85,6 +85,7 @@ int main()
 	msgctl(msgid, IPC_RMID, NULL);
 	return 0;
 }
+```
 
 
 
